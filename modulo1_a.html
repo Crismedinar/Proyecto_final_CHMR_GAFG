@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>Alta de usuario</title>
+    </head>
+    <h1>Alta de usuario</h1>
+    <form action="modulo1_a.php" method="POST">
+        <p>Usuario: <input type="text" name="usuario"/></p>
+        <p>Contrasena: <input type="password" name="contrasena"/></p>
+        <p>Nombre completo: <input type="text" name="nombre"/></p>
+        <p>
+            Nivel:
+            <select name="nivel">
+                <option value="1">1. Administrador</option>
+                <option value="2">2. Mantenimiento</option>
+                <option value="3">3. Enfermeria</option>
+                <option value="4">4. Operador</option>
+            </select>
+        </p>
+        <p><input type="submit" value="Dar de alta"/></p>
+    </form>
+    <form action="index_5.php">
+        <p><input type="submit" value="Salir del modulo"/></p>
+    </form>
+    <form action="index.html">
+        <p><input type="submit" value="Cerrar sesion"/></p>
+    </form>
+</html>

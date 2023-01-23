@@ -1,0 +1,6 @@
+Módulos completos:
+    Módulo de usuarios
+    Módulo de cambio de contraseña
+    Módulo de control
+    Módulo de información metereológica
+    Módulo de pacientes

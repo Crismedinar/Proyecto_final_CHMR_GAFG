@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>Modificacion de usuario</title>
+    </head>
+    <h1>Modificacion de usuario</h1>
+    <form action="modulo1_c.php" method="POST">
+        <p>Usuario: <input type="text" name="usuario"/></p>
+        <p>
+            Campo a modificar:
+            <select name="opcion">
+                <option value="1">Usuario</option>
+                <option value="2">Nombre</option>
+                <option value="3">Domicilio</option>
+                <option value="4">Telefono</option>
+                <option value="5">Contacto</option>
+                <option value="6">Nivel</option>
+                <option value="7">Turno</option>
+            </select>
+        </p>
+        <p>Nuevo valor: <input type="text" name="nuevo"/></p>
+        <p><input type="submit" value="Modificar"/></p>
+    </form>
+    <form action="index_5.php">
+        <p><input type="submit" value="Salir del modulo"/></p>
+    </form>
+    <form action="index.html">
+        <p><input type="submit" value="Cerrar sesion"/></p>
+    </form>
+</html>

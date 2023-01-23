@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>Alta</title>
+    </head>
+    <h1>Alta</h1>
+    <form action="modulo3_a.php" method="POST">
+        <p>GPIO: <input type="text" name="gpio"/></p>
+        <p>
+            Tipo:
+            <select name="tipo">
+                <option value="1">Sin uso</option>
+                <option value="2">Entrada</option>
+                <option value="3">Salida</option>
+                <option value="4">PWM</option>
+                <option value="5">I2C</option>
+            </select>
+        </p>
+        <p>Descripcion: <input type="text" name="descripcion"/></p>
+        <p>Ubicacion: <input type="text" name="ubicacion"/></p>
+        <p><input type="submit" value="Dar de alta"/></p>
+    </form>
+    <form action="index_5.php">
+        <p><input type="submit" value="Salir del modulo"/></p>
+    </form>
+    <form action="index.html">
+        <p><input type="submit" value="Cerrar sesion"/></p>
+    </form>
+</html>
